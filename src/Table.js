@@ -43,7 +43,7 @@ class Table extends Component {
     return (
       <div className="table">
         <div className="header">
-          <div className="sort" onClick={() => this.sortBy('title')}>Title</div>
+          <div className="sort" onClick={() => this.sortBy('title')}>Titulus</div>
           <div onClick={() => this.sortBy('body')}>Summary</div>
         </div>
         <div className="body">
